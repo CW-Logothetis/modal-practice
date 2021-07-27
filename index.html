@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- 1) we need a div with an ID of 'overlay' -->
+        <!-- 2) inside the div of 'overlay', we need a div with an ID of 'modal' -->
+        <!-- 3) the modal div you can put whatever you want in there... -->
+             <!-- 3.1) add a h2 tag in here with text of 'Contact Details' -->
+             <!-- 3.2) add a p tag in here with the text of 'Homer Simpson, 742 Evergreen Terrace (no spam please!) 😀' -->
+             <!-- 3.3) add a button in here with the id of 'close-modal' with the text Close! 👋 (as we'll need a reference to get back to this from the JavaScript we write!) 'close-button' sounds good! -->
+      
+        <div id="bet-overlay">
+            <div id="bet-modal">
+                <h2>Bank</h2>
+                 <div>
+                        <img src="images/chips05.png" class="chips" id="c05">
+                        <img src="images/chips10.png" class="chips" id="c10">
+                        <img src="images/chips25.png" class="chips" id="c25">
+                        <img src="images/chips50.png" class="chips" id="c50">
+                        <img src="images/chips100.png" class="chips" id="c100">
+                    </div>
+                    <button id="deal-cards" onclick="dealCards()">DEAL</button>
+            </div>
+        </div>
+   
+
+        <!-- 4 -->
+        <!-- add a h1 tag with the text '👇 Click to reveal Homer's contact details! 👇' -->
+        <h1>Open Modal</h1>
+        <button id="modal-btn-open">Open</button>
+        <!-- add a button with the text 'Contact Me 📨' and with an ID of 'open-modal' -->
+        
+        
+         <script src="index.js"></script>
+    </body>
+</html>
